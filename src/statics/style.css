@@ -1,0 +1,240 @@
+body{
+background:#000;
+color:#fff;
+font-family:Arial;
+}
+
+@media screen and (max-width: 800px){
+#inputs{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:10px;
+height:auto;
+justify-content: center;
+color:#fff;
+}
+
+#add0x{
+height:35px;
+width:80%;
+margin-bottom: 10px;
+}
+
+label{
+margin-bottom:10px;
+}
+
+#addButton{
+width:40%;
+height: 35px;
+}
+
+#father-logros{
+width:100%;
+max-height:330px;
+}
+
+#son-logro{
+width: 100%;
+font-size: 13px;
+height:60px;
+}
+
+#check{
+width:22px;
+height:22px;
+right:30px;
+bottom:5px;
+}
+
+#close{
+height:22px;
+right:2px;
+bottom:5px;
+}
+
+#rest{
+width:22px;
+height:22px;
+}
+
+#number{
+margin-left: 3px;
+border-radius: 4px;
+}
+}
+
+@media screen and (min-width: 801px){
+h2{
+color: rgba(0, 114, 213, 0.9);
+}
+
+#inputs{
+display: flex;
+padding:10px;
+height:35px;
+justify-content: center;
+color:#fff;
+}
+
+#father-logros{
+width:60%;
+max-height:200px;
+}
+
+#son-logro{
+width: 90%;
+}
+
+#check{
+width:32px;
+height:32px;
+right:50px;
+}
+
+#close{
+height:30px;
+right:5px;
+}
+
+#rest{
+width:30px;
+height:30px;
+}
+}
+
+#father{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2{
+text-align:center; 
+}
+
+button{
+background:transparent;
+border:1px solid rgba(0, 114, 186, 0.8);
+color:#fff;
+font-family: Calibri;
+}
+
+button:hover{
+border:1px solid #fff;
+cursor:pointer;
+}
+
+#lx{
+display:flex;
+align-items: center;
+margin-right:10px;
+}
+
+input{
+background: rgba(12, 13, 13, 0.22);
+color:#fff;
+border: 1px solid rgba(0, 114, 186, 0.8);
+outline: none;
+width:30%;
+height:40px;
+padding-left:10px;
+font-size:19px;
+font-family: Arial;
+}
+
+input:hover{
+border: 1px solid #fff;
+}
+
+#father-logros{
+margin-top:20px;
+overflow:auto;
+}
+
+#son-logro {
+background: rgba(0, 114, 186, 0.8);
+min-height: 35px;
+border-radius: 3px;
+position: relative;
+display: flex;
+align-items: center;
+font-family: Arial;
+margin-bottom: 10px;
+}
+
+#check, #close{
+position: absolute;
+cursor:pointer;
+}
+
+#check:hover, #close:hover{
+border: 1px solid #000;
+background:#000;
+border-radius: 50%;
+padding:2px;
+}
+
+#rest{ 
+cursor: pointer;
+position:absolute;
+right: 5px;
+bottom:5px;
+}
+
+#medalla{
+display:none;
+width:32px;
+height:32px;
+right:10px;
+}
+
+#number{
+margin-right:10px;
+height:40px;
+background:rgba(178, 206, 0, 1);
+color:#000;
+display:flex;
+align-items: center;
+width:40px;
+justify-content: center;
+font-size:21px;
+font-family:Calibri;
+}
+
+#add{
+background:red;
+margin-bottom:10px;
+display:flex; 
+align-items: center;
+}
+
+input{
+display:flex;
+height:auto;
+}
+
+#info{
+position:relative;
+margin-top:40px;
+padding-left:10px;
+padding-top:10px;
+background: rgba(42, 42, 42, 0.39);
+height:80px;
+width:200px; 
+right:10px;
+bottom:20px;
+border-radius:4px;
+color:#fff;
+}
+
+#nx{
+color:yellow;
+}
+
+#info2{
+color:gray;
+text-align:center;
+}
