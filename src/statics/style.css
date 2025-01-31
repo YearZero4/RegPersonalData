@@ -4,7 +4,15 @@ color:#fff;
 font-family:Arial;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
+
+
+#plog{
+width: 65%;
+max-height:50px;
+overflow: auto;
+}
+
 #inputs{
 display: flex;
 flex-direction: column;
@@ -14,6 +22,8 @@ height:auto;
 justify-content: center;
 color:#fff;
 }
+
+
 
 #add0x{
 height:35px;
@@ -65,7 +75,7 @@ border-radius: 4px;
 }
 }
 
-@media screen and (min-width: 801px){
+@media screen and (min-width: 901px){
 h2{
 color: rgba(0, 114, 213, 0.9);
 }
@@ -84,7 +94,7 @@ max-height:200px;
 }
 
 #son-logro{
-width: 90%;
+width: 95%;
 }
 
 #check{
